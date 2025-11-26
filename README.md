@@ -1,4 +1,4 @@
-# 📊 Analisis Rantai Markov — Brand Switching Smartphone
+# Analisis Rantai Markov — Brand Switching Smartphone
 ### Studi Kasus: Mahasiswa Sains Data ITERA (130 Responden)
 
 ![status](https://img.shields.io/badge/Status-Finished-brightgreen)
@@ -8,19 +8,19 @@
 
 ---
 
-## 🚀 Deskripsi Singkat
+## Deskripsi Singkat
 Project ini menganalisis **pola perpindahan merek (brand switching) smartphone** di kalangan **130 mahasiswa Program Studi Sains Data ITERA**, menggunakan **pemodelan stokastik Rantai Markov**.  
 Hasil analisis menghasilkan:
 - **Matriks probabilitas transisi (P¹)**
 - **Probabilitas perpindahan 2 langkah (P²)**
 - **Distribusi stasioner (steady state)** untuk memproyeksikan pangsa pasar smartphone jangka panjang
 
-📌 **Kesimpulan utama**:  
+**Kesimpulan utama**:  
 **Samsung, iPhone, dan Xiaomi** diproyeksikan menjadi **merek dominan jangka panjang**, sedangkan **Oppo & Vivo menunjukkan loyalitas rendah** karena seluruh pengguna mereka berpindah ke merek lain.
 
 ---
 
-## 📂 Struktur Project
+## Struktur Project
 ```text
 📁 Markov-BrandSwitching-Smartphone
 │
@@ -33,12 +33,12 @@ Hasil analisis menghasilkan:
 ```
 ---
 
-# 📦 Instalasi & Dependensi
+## Instalasi & Dependensi
 ```Pastikan R sudah terpasang (versi ≥ 4.3.0) bersama library berikut:
 install.packages(c("readxl", "dplyr", "ggplot2", "igraph", "ggraph", "stringr"))
 ```
 ---
-# ▶️ Cara Menjalankan Analisis
+## Cara Menjalankan Analisis
 ```Clone repository:
 git clone https://github.com/<username>/Markov-BrandSwitching-Smartphone.git
 cd Markov-BrandSwitching-Smartphone
@@ -53,7 +53,7 @@ source("main.R")
 - Diagram transisi probabilitas (network graph)
 - Grafik perbandingan jumlah pengguna setiap merek
 
-# 📈 Hasil Utama
+## Hasil Utama
 Probabilitas Retensi (P¹)
 | Merek   | Prob   |
 | ------- | ------ |
@@ -71,17 +71,16 @@ Distribusi Stasioner (Steady State)
 | Xiaomi  | 0.1804 |
 | Lainnya | < 0.07 |
 
-# 📌 Interpretasi
+## Interpretasi
 - Samsung & iPhone → retensi tertinggi & tujuan perpindahan utama
 - Xiaomi → posisi transisi value-for-money
 - Oppo & Vivo → loyalitas rendah; seluruh pengguna berpindah
 - Pasar smartphone mahasiswa menunjukkan pola oligopolistik
 
-# 👥 Peneliti / Developer
+## Peneliti / Developer
 | Nama                       | Role                        |
 | -------------------------- | --------------------------- |
 | **Danang Hilal Kurniawan** | Data Scientist              |
 | Rut Junita Sari Siburian   | Data Scientist              |
 | Izza Lutfia                | Data Scientist              |
 | Try Yani Rizki Nur Rohmah  | Data Scientist              |
-
