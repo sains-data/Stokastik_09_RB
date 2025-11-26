@@ -24,10 +24,12 @@ Hasil analisis menghasilkan:
 ```text
 📁 Markov-BrandSwitching-Smartphone
 │
-├── main.R
+├── code.Rmd
 ├── dataset_responden.xlsx
 ├── 📂 outputs
 │   └── laporan.pdf
+│   └── poster.png
+│   └── video.mp4
 └── README.md
 ```
 ---
