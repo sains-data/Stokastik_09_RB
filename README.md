@@ -9,7 +9,7 @@
 ---
 
 ## Deskripsi Singkat
-Project ini menganalisis **pola perpindahan merek (brand switching) smartphone** di kalangan **130 mahasiswa Program Studi Sains Data ITERA**, menggunakan **pemodelan stokastik Rantai Markov**.  
+Project ini menganalisis **pola perpindahan merek (brand switching) smartphone** di kalangan **130 mahasiswa Program Studi Sains Data ITERA (terkhusus hanya angkatan 2022)**, menggunakan **pemodelan stokastik Rantai Markov**.  
 Hasil analisis menghasilkan:
 - **Matriks probabilitas transisi (P¹)**
 - **Probabilitas perpindahan 2 langkah (P²)**
