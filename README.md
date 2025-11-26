@@ -24,11 +24,10 @@ Hasil analisis menghasilkan:
 ```text
 📁 Markov-BrandSwitching-Smartphone
 │
-├── main.R                  # Script utama analisis Markov Chain
-├── dataset_responden.xlsx  # Data primer hasil survei 130 responden
-├── 📂 outputs              # Output grafik & hasil perhitungan
-│   ├── diagram_transisi_markov.png
-│   └── grafik_distribusi_merek.png
+├── main.R
+├── dataset_responden.xlsx
+├── 📂 outputs
+│   └── laporan.pdf
 └── README.md
 ```
 ---
