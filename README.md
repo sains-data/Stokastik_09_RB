@@ -3,7 +3,7 @@
 
 ![status](https://img.shields.io/badge/Status-Finished-brightgreen)
 ![language](https://img.shields.io/badge/Language-R-blue)
-![license](https://img.shields.io/badge/License-Academic%20Use%20Only-orange)
+![license](https://img.shields.io/badge/License-ITERA-orange)
 ![last-update](https://img.shields.io/badge/Update-2025-important)
 
 ---
